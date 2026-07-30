@@ -406,8 +406,19 @@ header .navbar ul li a:hover {
 .about .row .content .box-container .box p span {
   color: #011aff;
 }
+.about-video {
+  margin-top: 2rem;
+  max-width: 42rem;
+}
+.about-video video {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
 .resumebtn {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
@@ -453,6 +464,9 @@ header .navbar ul li a:hover {
   }
   .about .row .content .box-container {
     gap: 0;
+  }
+  .about-video {
+    max-width: 100%;
   }
 }
 /* about media queries ends*/
